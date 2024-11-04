@@ -1,6 +1,7 @@
 {
   "manifest_version": 3,
   "name": "DOOM SCROLL TIMER",
+  "description": "This extension will show a timer on the screen when you scroll down",
   "version": "1.0",
   "permissions": [
     "storage"
@@ -8,7 +9,7 @@
 
   "content_scripts": [
     {
-      "matches": ["<all_urls>"],
+      "matches": ["https://www.youtube.com/shorts/*"],
       "js": ["content.js"]
     }
   ]
