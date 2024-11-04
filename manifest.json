@@ -1,0 +1,15 @@
+{
+  "manifest_version": 3,
+  "name": "DOOM SCROLL TIMER",
+  "version": "1.0",
+  "permissions": [
+    "storage"
+  ],
+
+  "content_scripts": [
+    {
+      "matches": ["<all_urls>"],
+      "js": ["content.js"]
+    }
+  ]
+}
